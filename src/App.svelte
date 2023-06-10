@@ -5,7 +5,15 @@
   import  Analytics from "./pages/Analytics/index.svelte";
   import Cards from "./pages/Cards/index.svelte"
 
+
 </script>
+
+
+
+<style>
+
+ 
+</style>
 
 <main>
   <Router>
@@ -13,9 +21,7 @@
     <Route path="/transactions" component={Transactions}/>
     <Route path="/analytics" component={Analytics}/>
     <Route path="/cards" component={Cards}/>
-  </Router>
-</main>
-
-<style>
  
-</style>
+  </Router>
+
+</main>

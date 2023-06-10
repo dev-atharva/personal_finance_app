@@ -1,11 +1,26 @@
 <script>
-  import Sidebar from "../../components/Sidebar.svelte";
+  // import Sidebar from "../../components/Sidebar.svelte";
+  import user_login from "../../store/store";
+  import { onDestroy } from "svelte";
+  import Signin from "../Login/index.svelte";
+  let sign_in = false;
+
+  const unsubscribe = user_login.subscribe((new_value) => {
+    sign_in = new_value;
+  });
+
+  onDestroy(() => {
+    unsubscribe();
+  });
 </script>
 
-<style>
-
-</style>
-
-<div>
-<Sidebar/>
+<div class="flex flex-col justify-center">
+  {#if !sign_in}
+    <Signin />
+  {:else}
+    Shree Ram
+  {/if}
 </div>
+
+<style>
+</style>
