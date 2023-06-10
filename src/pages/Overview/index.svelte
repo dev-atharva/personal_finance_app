@@ -1,4 +1,5 @@
 <script>
+<<<<<<< Updated upstream
   // import Sidebar from "../../components/Sidebar.svelte";
   import user_login from "../../store/store";
   import { onDestroy } from "svelte";
@@ -12,6 +13,9 @@
   onDestroy(() => {
     unsubscribe();
   });
+=======
+  import Header from "../../components/header.svelte";
+>>>>>>> Stashed changes
 </script>
 
 <div class="flex flex-col justify-center">
@@ -24,3 +28,10 @@
 
 <style>
 </style>
+<<<<<<< Updated upstream
+=======
+
+<div>
+<Header/>
+</div>
+>>>>>>> Stashed changes
