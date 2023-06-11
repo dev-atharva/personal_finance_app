@@ -33,10 +33,10 @@ function handleImageKeyDown(event) {
     </div>
   
     <ul class="mb-6">
-      <li class="mb-2 pb-2"><Link to="/" class="flex items-center"><img class="h-8 w-8 mr-2 cursor-pointer" src={overview} alt="Close"/>Overview</Link></li>
-      <li class="mb-2 pb-2"><Link to="/" class="flex items-center"><img class="h-8 w-8 mr-2 cursor-pointer" src={transactions} alt="Close"/>Transactions</Link></li>
-      <li class="mb-2 pb-2"><Link to="/" class="flex items-center"><img class="h-8 w-8 mr-2 cursor-pointer" src={analytics} alt="Close"/>Analytics</Link></li>
-      <li class="mb-2"><Link to="/" class="flex items-center"><img class="h-8 w-8 mr-2 cursor-pointer" src={cards} alt="Close"/>Cards</Link></li>
+      <li class="mb-2 pb-2"><Link to="/" class="flex items-center"><img class="h-8 w-8 mr-2 cursor-pointer" src={overview} alt="Overview"/>Overview</Link></li>
+      <li class="mb-2 pb-2"><Link to="/transactions" class="flex items-center"><img class="h-8 w-8 mr-2 cursor-pointer" src={transactions} alt="Transactions"/>Transactions</Link></li>
+      <li class="mb-2 pb-2"><Link to="/analytics" class="flex items-center"><img class="h-8 w-8 mr-2 cursor-pointer" src={analytics} alt="Analytics"/>Analytics</Link></li>
+      <li class="mb-2"><Link to="/cards" class="flex items-center"><img class="h-8 w-8 mr-2 cursor-pointer" src={cards} alt="Cards"/>Cards</Link></li>
     </ul>
     <hr class="black">
     <ul>

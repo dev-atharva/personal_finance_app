@@ -16,13 +16,13 @@
 
 </script>
 <main>
-  <div>
-    <Header/>
-  </div>
 <div class="flex flex-col justify-center">
   {#if !sign_in}
     <Signin />
   {:else}
+  <div>
+    <Header/>
+  </div>
     Shree Ram
   {/if}
 </div>
