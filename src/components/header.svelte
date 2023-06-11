@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import Sidenav from './sidenav.svelte';
 
   import { isSidenavOpen } from '../store/store.js';
@@ -15,4 +15,4 @@ const openSidenav = () => {
 {#if $isSidenavOpen == true}
   <Sidenav />
 {/if}
-</main>
+</main> -->

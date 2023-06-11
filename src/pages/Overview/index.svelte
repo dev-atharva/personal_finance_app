@@ -2,6 +2,7 @@
   import user_login from "../../store/store.js";
   import { onDestroy } from "svelte";
   import Signin from "../Login/index.svelte";
+  import Sidenav from "../../components/sidenav.svelte";
   let sign_in = false;
 
   const unsubscribe = user_login.subscribe((new_value) => {
@@ -21,7 +22,7 @@
     <Signin />
   {:else}
   <div>
-    <Header/>
+    <Sidenav />
   </div>
     Shree Ram
   {/if}

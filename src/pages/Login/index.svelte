@@ -1,6 +1,7 @@
 <script>
   import Signup from "./Signup.svelte";
   import Signin from "./Signin.svelte";
+  import BackImage from "../../assets/endless-constellation.svg";
   let toggle = false;
 
   const handletoggle = () => {
@@ -9,6 +10,7 @@
 </script>
 
 <div class="w-screen h-screen bg-main-color flex items-center justify-center">
+  <img src={BackImage} class='absolute w-full h-full object-cover mix-blend-overlay' alt="/" />
   <div
     class="flex flex-row lg:min-h-[50%] lg:min-w-[50%] rounded-xl justify-evenly sm:flex-wrap bg-color sm:min-h-[75%] p-2"
   >
@@ -75,10 +77,10 @@
     transition: transform cubic-bezier(0.175, 0.885, 0.32, 1.275) ease-in-out;
     animation: Movex 10s linear;
   }
-
+/* 
   .bg-main-color {
-    background: rgb(30, 114, 223);
-  }
+    background: rgb(30, 113, 221);
+  } */
 
   .bg-color {
     background: rgba(255, 255, 255, 0.3);
