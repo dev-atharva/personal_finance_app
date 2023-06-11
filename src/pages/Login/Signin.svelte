@@ -19,7 +19,7 @@
 
 <div>
   <input
-    class=" border-white border rounded-md px-4 py-2 bg-transparent font-bold text-white placeholder:text-white "
+    class=" border-white border rounded-md px-4 py-2 bg-transparent font-bold text-white placeholder:text-white"
     type="text"
     placeholder="Enter the username"
     bind:value={username}
@@ -27,7 +27,7 @@
 </div>
 <div>
   <input
-    class="text-white border-white border rounded-md px-4 py-2 bg-transparent placeholder:text-white font-bold "
+    class="text-white border-white border rounded-md px-4 py-2 bg-transparent placeholder:text-white font-bold"
     type="password"
     placeholder="Enter the password"
     bind:value={password}
