@@ -15,23 +15,17 @@
 
   import Header from "../../components/header.svelte";
 
+  import Layout from "./Layout.svelte";
 </script>
-<main>
-<div class="flex flex-col justify-center">
+
+<main >
   {#if !sign_in}
     <Signin />
   {:else}
-  <div>
-    <Sidenav />
-  </div>
-    Shree Ram
+    <Layout />
   {/if}
-</div>
 </main>
 
-
 <style>
+ 
 </style>
-
-
-

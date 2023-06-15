@@ -20,7 +20,7 @@
 //   }
 </script>
   
-  <div class="fixed top-0 left-0 bottom-0 w-64 bg-gray-100 p-4 text-black border-r-2 border-grey">
+  <div class="bg-gray-100 p-4 text-black border-r-2 border-grey min-h-screen">
     <div class="flex items-center mb-8">
       <img class="h-8 w-8 mr-2" src="logo.png" alt="Logo" />
       <h1 class="text-lg font-bold">Personal Finance App</h1>
